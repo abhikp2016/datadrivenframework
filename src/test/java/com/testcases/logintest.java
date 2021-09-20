@@ -17,6 +17,7 @@ public class logintest extends testbase{
 		Thread.sleep(4000);
 		system.out.println("my system method");
 		system.out.println("my second system method");
+		system.out.println("Abhik system method");
 
 		Assert.assertTrue(Iselementpresent(By.xpath(OR.getProperty("addcustomer"))), "customer  button not found");
 	}
