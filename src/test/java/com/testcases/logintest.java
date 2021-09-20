@@ -16,6 +16,8 @@ public class logintest extends testbase{
 	driver.findElement(By.xpath(OR.getProperty("bankmanagerlogin"))).click();
 		Thread.sleep(4000);
 		system.out.println("my system method");
+		system.out.println("my second system method");
+
 		Assert.assertTrue(Iselementpresent(By.xpath(OR.getProperty("addcustomer"))), "customer  button not found");
 	}
 
