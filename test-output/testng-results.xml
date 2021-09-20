@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20120" started-at="2021-05-10T16:26:14Z" finished-at="2021-05-10T16:26:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20120" started-at="2021-05-10T16:26:14Z" finished-at="2021-05-10T16:26:34Z">
+      <class name="com.testcases.addcustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.addcustomerTest@294425a7]" name="setup" is-config="true" duration-ms="14039" started-at="2021-05-10T21:56:14Z" finished-at="2021-05-10T21:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addcustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.addcustomerTest@294425a7]" name="addcustomer" duration-ms="4907" started-at="2021-05-10T21:56:28Z" data-provider="getdata" finished-at="2021-05-10T21:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[712306.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.addcustomerTest@294425a7]" name="teardown" is-config="true" duration-ms="1127" started-at="2021-05-10T21:56:33Z" finished-at="2021-05-10T21:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.addcustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
